@@ -1,0 +1,26 @@
+# ################################################################################## #
+# +--------------------------------------------------------------------------------+ #
+# |                                                                                | #
+# |                                                                                | #
+# |                                                                                | #
+# |                __    ___  __        ___  __          __  __                    | #
+# |               /__`  |_   |__) \  / |_   |__)      | /   /  \ |\ |              | #
+# |               .__/  |___ |  \  \/  |___ |  \      | \__ \__/ | \|              | #
+# |                                                                                | #
+# |                                                                                | #
+# |                                                                                | #
+# |      Youtube:    www.youtube.com/@davigamer1614                                | #
+# |      Github:     https://github.com/BEAMONDO/Minecraft-Plugin-ServerIcon       | #
+# |                                                                                | #
+# |                                                                                | #
+# |                                                                                | #
+# +--------------------------------------------------------------------------------+ #
+# ################################################################################## #
+
+
+#   update-message: activar o desactivar el mensaje de actualizacion disponible al entrar al servidor
+#   no-perm-message: activar o desactivar el mensaje para cuando usas un comando y no tienes permiso
+
+Config:
+  update-message: true
+  no-perm-message: true

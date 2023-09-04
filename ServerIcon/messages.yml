@@ -1,0 +1,16 @@
+Messages:
+  icon-error:
+    invalid-image: 'All of your server icons must be 64x64 and end in .png! Those who do not comply will not be used'
+    retry: 'The icons directory is missing! Trying to create one now...'
+  help:
+  - '&b<-----------------&aCOMMANDS&b----------------->'
+  - '&e/si help &7Show this message'
+  - '&e/si version &7Show plugin version'
+  - '&e/si reload &7Reload plugin config'
+  - '&e/si plugin &7Show plugin download link'
+  reload: '%plugin% &aThe plugin has been reloaded'
+  version: '%plugin% &aPlugin version: &b%version%'
+  command-no-argument: '%plugin% &fUse &e/si help &fto see the command list'
+  no-perm: '%plugin% &cYou don`t have permission to use that command'
+  console-error: 'You can`t use that command in console'
+  update-checker: '%plugin% &bThere is a new version &e(&f%latestversion%&e)&b. Download it here: &7https://www.spigotmc.org/resources//'

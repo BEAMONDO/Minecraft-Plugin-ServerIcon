@@ -1,0 +1,21 @@
+main: davigamer161.servericon.ServerIcon
+version: 1.0.1
+name: ServerIcon
+commands:
+  servericon:
+    description: Comando principal
+    aliases: [si]
+permissions:
+  servericon.*:
+    default: op
+    description: Todos los permisos
+  servericon.help:
+    description: Permiso uso help
+  servericon.reload:
+    description: Permiso uso reload
+  servericon.version:
+    description: Permiso uso version
+  servericon.plugin:
+    description: Sirve para ver el link de descarga del plugin
+  servericon.updatechecker:
+    description: Sirve para comprobar si hay una nueva version del plugin

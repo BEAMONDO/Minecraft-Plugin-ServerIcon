@@ -1,0 +1,16 @@
+Messages:
+  icon-error:
+    invalid-image: 'Todos los iconos del servidor deben ser de 64x64 y terminar en .png! Los que no lo cumplan no seran usados!'
+    retry: 'La carpeta ServerIcon no existe! Intentando crearla ahora...'
+  help:
+  - '&b<-----------------&aCOMANDOS&b----------------->'
+  - '&e/si help &7Muestra este mensaje'
+  - '&e/si version &7Version del plugin'
+  - '&e/si reload &7Recargar el plugin'
+  - '&e/si plugin &7Muestra el link de descarga del plugin'
+  reload: '%plugin% &aEl plugin ha sido recargado'
+  version: '%plugin% &aVersion &b%version%'
+  command-no-argument: '%plugin% &fUsa &e/si help &fpara ver la lista de comandos'
+  no-perm: '%plugin% &cNo tienes permiso para ejecutar ese comando'
+  console-error: 'No puedes ejecutar ese comando desde la consola'
+  update-checker: '%plugin% &bHay una nueva version &e(&f%latestversion%&e)&b. Descargala aqui: &7https://www.spigotmc.org/resources//'

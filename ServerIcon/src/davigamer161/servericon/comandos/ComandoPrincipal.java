@@ -104,7 +104,7 @@ public class ComandoPrincipal implements CommandExecutor{
 //----------------------------------------Desde aqui---------------------------------------//
                 else if(args[0].equalsIgnoreCase("plugin")){
                     if(sender instanceof Player && (jugador.hasPermission("servericon.plugin"))){
-                        jugador.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.nombre+" &ehttps://www.spigotmc.org/resources//"));
+                        jugador.sendMessage(ChatColor.translateAlternateColorCodes('&', plugin.nombre+" &ehttps://www.spigotmc.org/resources/112473/"));
                         return true;
                     }if(sender instanceof Player && !(jugador.hasPermission("servericon.plugin"))){
                         if(config.getString(path).equals("true")){

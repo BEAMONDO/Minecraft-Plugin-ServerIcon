@@ -158,7 +158,7 @@ public class ServerIcon extends JavaPlugin implements Listener {
 	    	  try {
 	          String texto = new String(Files.readAllBytes(archivo));
 	          if(!texto.contains("update-checker:")) {
-            getMessages().set("Messages.update-checker", "%plugin% &bThere is a new version &e(&f%latestversion%&e)&b. Download it here: &7https://www.spigotmc.org/resources//");
+            getMessages().set("Messages.update-checker", "%plugin% &bThere is a new version &e(&f%latestversion%&e)&b. Download it here: &7https://www.spigotmc.org/resources/112473/");
             saveMessages();
           }
 	        } catch (IOException e) {
@@ -174,7 +174,7 @@ public class ServerIcon extends JavaPlugin implements Listener {
     public void comprobarActualizaciones(){		  
 		  try {
 			  HttpURLConnection con = (HttpURLConnection) new URL(
-	          "https://api.spigotmc.org/legacy/update.php?resource=111056").openConnection();
+	          "https://api.spigotmc.org/legacy/update.php?resource=112473").openConnection();
 	          int timed_out = 1250;
 	          con.setConnectTimeout(timed_out);
 	          con.setReadTimeout(timed_out);
@@ -183,7 +183,7 @@ public class ServerIcon extends JavaPlugin implements Listener {
 	        	  if(!version.equals(latestversion)){
 	        		  Bukkit.getConsoleSender().sendMessage(nombre+ChatColor.AQUA+" There is a new version available. "+ChatColor.YELLOW+
                     "("+ChatColor.GRAY+latestversion+ChatColor.YELLOW+")");
-	        		  Bukkit.getConsoleSender().sendMessage(nombre+ChatColor.AQUA+" You can download it at: "+ChatColor.WHITE+"https://www.spigotmc.org/resources//");  
+	        		  Bukkit.getConsoleSender().sendMessage(nombre+ChatColor.AQUA+" You can download it at: "+ChatColor.WHITE+"https://www.spigotmc.org/resources/112473/");  
 	        	  }      	  
 	          }
 	      } catch (Exception ex){

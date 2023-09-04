@@ -13,4 +13,4 @@ Messages:
   command-no-argument: '%plugin% &fUse &e/si help &fto see the command list'
   no-perm: '%plugin% &cYou don`t have permission to use that command'
   console-error: 'You can`t use that command in console'
-  update-checker: '%plugin% &bThere is a new version &e(&f%latestversion%&e)&b. Download it here: &7https://www.spigotmc.org/resources//'
+  update-checker: '%plugin% &bThere is a new version &e(&f%latestversion%&e)&b. Download it here: &7https://www.spigotmc.org/resources/112473/'
